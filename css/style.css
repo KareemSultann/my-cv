@@ -1,0 +1,129 @@
+* {  
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Open Sans', serif;
+    text-transform: capitalize;
+    background: antiquewhite;
+}
+.c-v {
+    width: 100%;
+    margin: 50px auto;
+    box-shadow: 3px 3px 10px #ededed, -3px -3px 10px #ededed;
+    overflow: hidden;
+    background: #fff;
+}
+.c-v .personal-1 {
+    width: 33%;
+    float: left;
+    padding: 0 8px;
+    margin: 5px;
+    background-color: #2d2d2d;
+}
+.c-v .personal-1 .image {
+    width: 100%;
+    margin: 20px 0;
+}
+.c-v .personal-1 .image img {
+    height: 190px;
+    border-radius: 50%;
+    width: 190px;
+    margin: 50px auto;
+    background-color: #777;
+    border: 2px solid #f3f3f3;
+    display: block;
+    padding: 0;
+}
+.c-v .personal-1 .info,
+.c-v .personal-1 .social {
+    width: 100%;
+    margin-bottom: 18px;
+    padding: 0 35px;
+    color: #fff;
+    overflow: hidden;
+}
+.c-v h2 {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 23px;
+}
+.c-v .personal-1 .fa {
+    float: left;
+    margin-top: 20px;
+    width: 45px;
+    text-align: center;
+}
+.c-v .personal-1 .custom {
+    color: #fff;
+    text-transform: capitalize;
+    float: left;
+    padding-left: 27px;
+    margin: 20px 0 0 0;
+    font-size: 20px;
+    width: 75%;
+    font-weight: bold
+}
+.c-v .personal-1 p {
+    float: left;
+    padding-left: 27px;
+    padding-top: 4px;
+    letter-spacing: 1.3px;
+    color: rgb(165, 165, 165);
+    font-style: italic;
+    width: 80%;
+    font-size: 17px;
+}
+.c-v .personal-2 {
+    float: left;
+    padding: 18px;
+    overflow: hidden;
+    width: 66%;
+}
+.c-v .personal-2 .my-name {
+    padding: 20px;
+}
+.c-v .personal-2 .my-name h1 {
+    font-weight: bold;
+    font-size: 75px;
+    text-transform: uppercase;
+}
+.c-v .personal-2 .my-name p {
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+}
+.c-v .personal-2 p.custom-2,
+.c-v .personal-2 ul.custom-2{
+    padding-left: 27px;
+    padding-top: 4px;
+    letter-spacing: 1.3px;
+    color: rgb(165, 165, 165);
+    font-style: italic;
+    width: 80%;
+    font-size: 17px;
+}
+.c-v .left {
+    float: left;
+    padding-right: 20px;
+    margin-bottom: 0;
+    width: 20%;
+    font-size: 15px !important;
+    line-height: 30px;
+}
+.c-v .pro {
+    width: 70%;
+    height: 30px;
+    border: 1px solid #e6e6e6;
+    float: left;
+    overflow: hidden;
+    margin-bottom: 45px;
+}
+.c-v .pro .per {
+    height: 100%;
+    background-color: #ededed;
+}
+
+
